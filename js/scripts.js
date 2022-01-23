@@ -1,18 +1,19 @@
 'use strick';
 
 const btn = document.querySelector('header a');
+
 const h1 = document.querySelector ('header h1');
 
-let countner = 0;
+let coutner = 0;
 
 btn.addEventListener('click', () => {
 
-    counter++;
+    coutner++;
     // alert('test');
-    
+
     console.log(coutner);
 
-    if(countner % 2 === 0) {
+    if(coutner % 2 === 0) {
 
         h1.innerHTML = 'Wakacje nad morzem dla dzieci';
     } else {
